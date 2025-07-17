@@ -1,0 +1,48 @@
+~ $ history 
+    1  databricks
+    2  python3 --version
+    3  pip3 --version
+    4  pip3 install --upgrade databricks-cli
+    5  history 
+    6  databricks --version
+    7  databricks configure
+    8  databricks workspace ls
+    9  databricks clusters list
+   10  databricks workspace ls
+   11  databricks workspace export 'Untitled Notebook 2025-07-16 09:21:43'
+   12  databricks workspace export 'Untitled Notebook 2025-07-16 09:21:43' 'Untitled Notebook 2025-07-16 09:21:43'
+   13  databricks workspace export '/Untitled Notebook 2025-07-16 09:21:43' 'Untitled Notebook 2025-07-16 09:21:43'
+   14  databricks workspace export '/Workspace/Users/rahul.aggarwal.trainer.1984@gmail.com/(Clone) 01-Databricks-datalake-spark (1)' 'myfile'
+   15  ls
+   16  nano myfile 
+   17  databricks import myfile /myfule
+   18  databricks workspace  import myfile /myfule
+   19  databricks workspace  import --format SOURCE  myfile /myfule
+   20  databricks workspace  import -l python  myfile /myfule
+   21  databricks jobs list
+   22  databricks jobs get --job-id 6028
+   23  databricks jobs get --job-id 190949633368121
+   24   q
+   25  databricks jobs run-now --job-id 190949633368121
+   26  databricks clusters list
+   27  databricks cluster stop --cluster-id 0717-041758-6qogdhy4
+   28  databricks clusters stop --cluster-id 0717-041758-6qogdhy4
+   29  databricks clusters terminate --cluster-id 0717-041758-6qogdhy4
+   30  databricks clusters ---help
+   31  databricks clusters --help
+   32  databricks clusters  delete  --cluster-id 0717-041758-6qogdhy4
+   33  databricks clusters list
+   34  databricks clusters  start   --cluster-id 0717-041758-6qogdhy4
+   35  databricks clusters list
+   36  databricks runs list
+   37  databricks secrets create-scope --scope my-scope
+   38  databricks secrets put --scope my-scope --key my-key
+   39  databricks secrets list --scope my-scope
+   40  databricks secrets put --scope my-scope --key my-key
+   41  # NOT allowed: this will fail
+   42  databricks secrets get --scope my-scope --key my-key
+   43  databricks secrets --help
+   44  nano my-cluster.json
+   45  databricks clusters create --json-file cluster-config.json
+   46  databricks clusters create --json-file my-cluster.json 
+   47  history 
